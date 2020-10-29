@@ -30,7 +30,7 @@ zlabel('Temperature u')
 %Output 2d plot for Temperature in respect to x for different times
 figure(2);
 plot(x,u(:,1),x,u(:,6),x,u(:,11),x,u(:,16),x,u(:,21),x,u(:,26),x,u(:,31));
-legend('temp at t=0','temp at t=0.5','temp at t=1','temp at t=1.5','temp at t=2','temp at t=2.5','temp at t=3')
+legend('temp at t=0','temp at t=0.5','temp at x=1','temp at x=1.5','temp at x=2','temp at x=1.6','temp at x=2')
 xlabel('Distance x');
 ylabel('Temperature');
 %Output 2d plot for Temperature in respect to t for different positions
